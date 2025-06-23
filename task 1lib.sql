@@ -27,7 +27,6 @@ CREATE TABLE IssuedBooks (
     FOREIGN KEY (BookID) REFERENCES Books(BookID),
     FOREIGN KEY (MemberID) REFERENCES Members(MemberID)
 );
-desc Members;
-drop table Members;
+
 
 
